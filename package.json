@@ -1,22 +1,42 @@
 {
-  "name": "nutrition-planner-backend",
+  "name": "tricycleeats",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "private": true,
   "dependencies": {
-    "@google/generative-ai": "^0.24.0",
-    "cors": "^2.8.5",
-    "dns": "^0.1.2",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "@craco/craco": "^7.1.0",
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
     "mongodb": "^6.15.0",
-    "mongoose": "^8.13.1",
-    "openai": "^4.90.0"
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }

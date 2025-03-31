@@ -1,0 +1,175 @@
+{
+  "indianFoods": [
+    {
+      "_id": "ObjectId('1')",
+      "name": "Dal",
+      "category": "Legumes",
+      "subCategory": "Pulses",
+      "nutrients": {
+        "calories": 250,
+        "protein": 12,
+        "carbs": 30,
+        "fats": 8,
+        "fiber": 7,
+        "glycemicIndex": 35
+      },
+      "dietaryBenefits": ["Rich in protein", "Aids digestion"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('2')",
+      "name": "Rice",
+      "category": "Grains",
+      "subCategory": "Cereals",
+      "nutrients": {
+        "calories": 130,
+        "protein": 3,
+        "carbs": 28,
+        "fats": 0.3,
+        "fiber": 0.6,
+        "glycemicIndex": 73
+      },
+      "dietaryBenefits": ["Easily digestible", "Quick energy source"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('3')",
+      "name": "Chapati",
+      "category": "Grains",
+      "subCategory": "Flatbread",
+      "nutrients": {
+        "calories": 120,
+        "protein": 4,
+        "carbs": 25,
+        "fats": 1,
+        "fiber": 3,
+        "glycemicIndex": 52
+      },
+      "dietaryBenefits": ["Rich in fiber", "Good source of energy"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('4')",
+      "name": "Ladyfinger",
+      "category": "Vegetables",
+      "subCategory": "Green Vegetables",
+      "nutrients": {
+        "calories": 33,
+        "protein": 2,
+        "carbs": 7,
+        "fats": 0.2,
+        "fiber": 3,
+        "glycemicIndex": 20
+      },
+      "dietaryBenefits": ["Good for digestion", "Rich in fiber"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Summer"
+      }
+    },
+    {
+      "_id": "ObjectId('5')",
+      "name": "Potato",
+      "category": "Vegetables",
+      "subCategory": "Root Vegetables",
+      "nutrients": {
+        "calories": 77,
+        "protein": 2,
+        "carbs": 17,
+        "fats": 0.1,
+        "fiber": 2,
+        "glycemicIndex": 85
+      },
+      "dietaryBenefits": ["Good energy source", "Rich in potassium"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('6')",
+      "name": "Tomato",
+      "category": "Vegetables",
+      "subCategory": "Fruit Vegetables",
+      "nutrients": {
+        "calories": 18,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fats": 0.2,
+        "fiber": 1.2,
+        "glycemicIndex": 15
+      },
+      "dietaryBenefits": ["Rich in Vitamin C", "Good for heart health"],
+      "availability": {
+        "regions": ["All India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('7')",
+      "name": "Pasta",
+      "category": "Grains",
+      "subCategory": "Processed Foods",
+      "nutrients": {
+        "calories": 158,
+        "protein": 5.8,
+        "carbs": 31,
+        "fats": 1.2,
+        "fiber": 1.8,
+        "glycemicIndex": 55
+      },
+      "dietaryBenefits": ["Energy-rich", "Good source of carbohydrates"],
+      "availability": {
+        "regions": ["Urban India"],
+        "season": "Available year-round"
+      }
+    },
+    {
+      "_id": "ObjectId('8')",
+      "name": "Makki",
+      "category": "Grains",
+      "subCategory": "Millets",
+      "nutrients": {
+        "calories": 160,
+        "protein": 5,
+        "carbs": 35,
+        "fats": 1.5,
+        "fiber": 2,
+        "glycemicIndex": 55
+      },
+      "dietaryBenefits": ["Rich in fiber", "Good for digestion"],
+      "availability": {
+        "regions": ["Punjab, Rajasthan, UP"],
+        "season": "Winter"
+      }
+    },
+    {
+      "_id": "ObjectId('9')",
+      "name": "Jowar",
+      "category": "Grains",
+      "subCategory": "Millets",
+      "nutrients": {
+        "calories": 160,
+        "protein": 5.4,
+        "carbs": 35,
+        "fats": 1.9,
+        "fiber": 2.5,
+        "glycemicIndex": 50
+      },
+      "dietaryBenefits": ["Gluten-free alternative", "Good for diabetes"],
+      "availability": {
+        "regions": ["Maharashtra, Karnataka, Gujarat"],
+        "season": "Winter"
+      }
+    }
+  ]
+}

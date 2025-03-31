@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Gradient background */
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+/* Intro Section */
+.intro-section {
+  padding: 40px;
+}
+
+.intro-image {
+  width: 300px;
+  height: auto;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0e9859; /* Vibrant Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #075c37; /* Darker Green */
+}
+
+/* Features Section */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 20px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  display:flex=
+

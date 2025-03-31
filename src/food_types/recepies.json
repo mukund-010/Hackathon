@@ -1,0 +1,76 @@
+{
+  "recipes": [
+    {
+      "name": "Dal Tadka",
+      "ingredients": ["Toor dal", "Onion", "Tomato", "Garlic", "Ginger", "Green chilies", "Cumin seeds", "Mustard seeds", "Turmeric", "Red chili powder", "Garam masala", "Salt", "Ghee", "Coriander leaves"],
+      "instructions": "1. Wash and soak dal for 30 minutes. 2. Pressure cook dal with turmeric and salt for 3 whistles. 3. In a pan, heat ghee and add mustard seeds, cumin seeds, garlic, ginger, and green chilies. 4. Add chopped onions and tomatoes; cook until soft. 5. Add cooked dal and mix well. 6. Simmer for 5 minutes and garnish with coriander leaves.",
+      "time_required": "30 minutes"
+    },
+    {
+      "name": "Chicken Biryani",
+      "ingredients": ["Chicken", "Basmati rice", "Onions", "Tomatoes", "Yogurt", "Ginger-garlic paste", "Green chilies", "Coriander leaves", "Mint leaves", "Ghee", "Biryani masala", "Salt", "Turmeric", "Red chili powder"],
+      "instructions": "1. Marinate chicken with yogurt, ginger-garlic paste, salt, turmeric, and biryani masala for 1 hour. 2. Cook rice until 70% done. 3. In a pan, heat ghee and fry onions until golden brown. 4. Add marinated chicken and cook until tender. 5. Layer chicken and rice, sprinkle coriander and mint leaves. 6. Cover and cook on low heat for 20 minutes.",
+      "time_required": "1.5 hours"
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "ingredients": ["Paneer", "Tomatoes", "Cashews", "Cream", "Butter", "Onion", "Garlic", "Ginger", "Green chilies", "Cumin seeds", "Coriander powder", "Garam masala", "Salt", "Turmeric", "Red chili powder"],
+      "instructions": "1. Blend tomatoes and cashews into a smooth puree. 2. In a pan, heat butter, add cumin seeds, garlic, ginger, and onions. 3. Add tomato-cashew puree and cook until thick. 4. Add spices, salt, and paneer cubes. 5. Simmer and add cream before serving.",
+      "time_required": "40 minutes"
+    },
+    {
+      "name": "Egg Curry",
+      "ingredients": ["Eggs", "Onions", "Tomatoes", "Ginger-garlic paste", "Green chilies", "Curry leaves", "Mustard seeds", "Coconut milk", "Coriander powder", "Red chili powder", "Salt", "Turmeric"],
+      "instructions": "1. Boil eggs and set aside. 2. Heat oil in a pan, add mustard seeds, curry leaves, and onions. 3. Add ginger-garlic paste and tomatoes, cook until soft. 4. Add spices, salt, and coconut milk. 5. Add boiled eggs and simmer for 10 minutes.",
+      "time_required": "35 minutes"
+    },
+    {
+      "name": "Fish Curry",
+      "ingredients": ["Fish", "Onions", "Tomatoes", "Ginger-garlic paste", "Coconut milk", "Green chilies", "Curry leaves", "Mustard seeds", "Coriander powder", "Red chili powder", "Turmeric", "Salt", "Oil"],
+      "instructions": "1. Clean and marinate fish with turmeric and salt. 2. Heat oil in a pan, add mustard seeds and curry leaves. 3. Add onions and cook until golden. 4. Add ginger-garlic paste and tomatoes; cook until soft. 5. Add spices and coconut milk. 6. Add fish and cook on low heat until tender.",
+      "time_required": "40 minutes"
+    },
+    {
+      "name": "Pasta Alfredo",
+      "ingredients": ["Pasta", "Butter", "Cream", "Garlic", "Parmesan cheese", "Salt", "Pepper", "Oregano"],
+      "instructions": "1. Boil pasta until al dente. 2. In a pan, melt butter and sauté garlic. 3. Add cream and let it simmer. 4. Mix in cooked pasta, Parmesan cheese, salt, and pepper. 5. Garnish with oregano and serve.",
+      "time_required": "25 minutes"
+    },
+    {
+      "name": "Homemade Pizza",
+      "ingredients": ["Pizza base", "Tomato sauce", "Cheese", "Bell peppers", "Onions", "Olives", "Oregano", "Chili flakes", "Salt"],
+      "instructions": "1. Preheat oven to 200°C. 2. Spread tomato sauce on pizza base. 3. Add cheese and toppings of choice. 4. Bake for 15-20 minutes until cheese is melted and crust is crispy. 5. Garnish with oregano and chili flakes before serving.",
+      "time_required": "30 minutes"
+    },
+    {
+      "name": "Aloo Gobi",
+      "ingredients": ["Potatoes", "Cauliflower", "Onions", "Tomatoes", "Ginger-garlic paste", "Cumin seeds", "Turmeric", "Coriander powder", "Red chili powder", "Salt", "Oil", "Coriander leaves"],
+      "instructions": "1. Heat oil in a pan and add cumin seeds. 2. Add onions and sauté until golden brown. 3. Add ginger-garlic paste and tomatoes; cook until soft. 4. Add potatoes, cauliflower, and spices. 5. Cover and cook on low heat until vegetables are tender. 6. Garnish with coriander leaves.",
+      "time_required": "35 minutes"
+    },
+    {
+      "name": "Bhindi Masala",
+      "ingredients": ["Okra (bhindi)", "Onions", "Tomatoes", "Garlic", "Green chilies", "Cumin seeds", "Turmeric", "Coriander powder", "Garam masala", "Salt", "Oil"],
+      "instructions": "1. Wash and dry okra thoroughly. 2. Heat oil in a pan, add cumin seeds and chopped garlic. 3. Add onions and sauté until golden brown. 4. Add tomatoes, green chilies, and spices. 5. Add chopped okra and cook on low heat until tender.",
+      "time_required": "30 minutes"
+    },
+    {
+      "name": "Palak Paneer",
+      "ingredients": ["Spinach", "Paneer", "Onions", "Tomatoes", "Garlic", "Ginger", "Green chilies", "Cumin seeds", "Turmeric", "Garam masala", "Salt", "Cream"],
+      "instructions": "1. Blanch spinach and blend into a puree. 2. Heat oil in a pan, add cumin seeds, garlic, ginger, and onions. 3. Add tomatoes and cook until soft. 4. Add spinach puree and spices. 5. Add paneer cubes and simmer for 10 minutes. 6. Stir in cream before serving.",
+      "time_required": "40 minutes"
+    },
+    {
+      "name": "Chana Masala",
+      "ingredients": ["Chickpeas", "Onions", "Tomatoes", "Garlic", "Ginger", "Cumin seeds", "Coriander powder", "Garam masala", "Salt", "Turmeric", "Red chili powder", "Oil", "Coriander leaves"],
+      "instructions": "1. Soak chickpeas overnight and cook until soft. 2. Heat oil in a pan, add cumin seeds, garlic, and onions. 3. Add tomatoes and cook until soft. 4. Add cooked chickpeas and spices. 5. Simmer for 10 minutes and garnish with coriander leaves.",
+      "time_required": "45 minutes"
+    },
+    {
+      "name": "Methi Thepla",
+      "ingredients": ["Fenugreek leaves", "Whole wheat flour", "Yogurt", "Turmeric", "Coriander powder", "Cumin seeds", "Salt", "Oil"],
+      "instructions": "1. Mix fenugreek leaves, flour, yogurt, spices, and salt to make a dough. 2. Roll out into thin flatbreads. 3. Cook on a hot tawa with oil until golden brown on both sides.",
+      "time_required": "30 minutes"
+    }
+  ]
+}

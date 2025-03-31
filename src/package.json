@@ -1,0 +1,9 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "dependencies": {
+    "node-css-require": "^1.0.0"
+  }
+}
