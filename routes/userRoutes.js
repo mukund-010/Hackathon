@@ -6,8 +6,8 @@ const router = express.Router();
 // Register a new user
 router.post("/register", async (req, res) => {
   try {
-    const { name, email, password, healthConditions, allergies, preferredIngredients, dislikedIngredients } = req.body;
-    const user = new User({ name, email, password, healthConditions, allergies, preferredIngredients, dislikedIngredients });
+    const { name, email, password, age, region, healthConditions, timeConstraint, allergies, dietPreference, preferredIngredients, dislikedIngredients } = req.body;
+    const user = new User({ name, email, password, age, region, healthConditions, timeConstraint, allergies, dietPreference, preferredIngredients, dislikedIngredients });
     await user.save();
     res.status(201).json({ message: "User registered successfully!" });
   } catch (error) {
