@@ -17,8 +17,8 @@ router.get("/generate/:email", async (req, res) => {
     const prompt = `Provide a list of meal options suitable for a ${user.age}-year-old from ${user.region}. 
     Consider their health conditions: ${user.healthConditions.join(", ")}. 
     Avoid these allergies: ${user.allergies.join(", ")} and disliked ingredients: ${user.dislikedIngredients.join(", ")}. 
-    Use these preferred ingredients: ${user.preferredIngredients.join(", ")}. 
-    The meal options should include a variety of traditional foods from ${user.region}. 
+    Use these preferred ingredients: ${user.preferredIngredients.join(", ")}. Also consider the fact that the user only has ${user.timeConstraint} minutes to cook. Also the user has dietary preference ${user.dietPreference} to consider. 
+    For each meal option explain the thought process of why we chose each dish, such as the time constraint factor or health conditions etc. 
     Return only a plain text list without formatting symbols like ## or **.`;
 
     // Call Gemini AI for response
